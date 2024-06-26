@@ -1,0 +1,104 @@
+@font-face {
+    font-family: 'Arima Madurai';
+    src: url('ArimaMadurai-Light.eot');
+    src: url('ArimaMadurai-Light.eot?#iefix') format('embedded-opentype'),
+        url('ArimaMadurai-Light.woff2') format('woff2'),
+        url('ArimaMadurai-Light.woff') format('woff'),
+        url('ArimaMadurai-Light.ttf') format('truetype'),
+        url('ArimaMadurai-Light.svg#ArimaMadurai-Light') format('svg');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arima Madurai';
+    src: url('ArimaMadurai-ExtraLight.eot');
+    src: url('ArimaMadurai-ExtraLight.eot?#iefix') format('embedded-opentype'),
+        url('ArimaMadurai-ExtraLight.woff2') format('woff2'),
+        url('ArimaMadurai-ExtraLight.woff') format('woff'),
+        url('ArimaMadurai-ExtraLight.ttf') format('truetype'),
+        url('ArimaMadurai-ExtraLight.svg#ArimaMadurai-ExtraLight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arima Madurai';
+    src: url('ArimaMadurai-ExtraBold.eot');
+    src: url('ArimaMadurai-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('ArimaMadurai-ExtraBold.woff2') format('woff2'),
+        url('ArimaMadurai-ExtraBold.woff') format('woff'),
+        url('ArimaMadurai-ExtraBold.ttf') format('truetype'),
+        url('ArimaMadurai-ExtraBold.svg#ArimaMadurai-ExtraBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arima Madurai';
+    src: url('ArimaMadurai-Medium.eot');
+    src: url('ArimaMadurai-Medium.eot?#iefix') format('embedded-opentype'),
+        url('ArimaMadurai-Medium.woff2') format('woff2'),
+        url('ArimaMadurai-Medium.woff') format('woff'),
+        url('ArimaMadurai-Medium.ttf') format('truetype'),
+        url('ArimaMadurai-Medium.svg#ArimaMadurai-Medium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arima Madurai';
+    src: url('ArimaMadurai-Thin.eot');
+    src: url('ArimaMadurai-Thin.eot?#iefix') format('embedded-opentype'),
+        url('ArimaMadurai-Thin.woff2') format('woff2'),
+        url('ArimaMadurai-Thin.woff') format('woff'),
+        url('ArimaMadurai-Thin.ttf') format('truetype'),
+        url('ArimaMadurai-Thin.svg#ArimaMadurai-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arima Madurai';
+    src: url('ArimaMadurai-Regular.eot');
+    src: url('ArimaMadurai-Regular.eot?#iefix') format('embedded-opentype'),
+        url('ArimaMadurai-Regular.woff2') format('woff2'),
+        url('ArimaMadurai-Regular.woff') format('woff'),
+        url('ArimaMadurai-Regular.ttf') format('truetype'),
+        url('ArimaMadurai-Regular.svg#ArimaMadurai-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arima Madurai';
+    src: url('ArimaMadurai-Bold.eot');
+    src: url('ArimaMadurai-Bold.eot?#iefix') format('embedded-opentype'),
+        url('ArimaMadurai-Bold.woff2') format('woff2'),
+        url('ArimaMadurai-Bold.woff') format('woff'),
+        url('ArimaMadurai-Bold.ttf') format('truetype'),
+        url('ArimaMadurai-Bold.svg#ArimaMadurai-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Arima Madurai';
+    src: url('ArimaMadurai-Black.eot');
+    src: url('ArimaMadurai-Black.eot?#iefix') format('embedded-opentype'),
+        url('ArimaMadurai-Black.woff2') format('woff2'),
+        url('ArimaMadurai-Black.woff') format('woff'),
+        url('ArimaMadurai-Black.ttf') format('truetype'),
+        url('ArimaMadurai-Black.svg#ArimaMadurai-Black') format('svg');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="./js/jquery.js"></script>
+    <script src="./js/swiper-bundle.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/main.js"></script>
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./fonts/stylesheet.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="header_top">
+          <img src="./img/icons_header.svg" alt="" />
+          <span
+            >The official syndicate of the guesthouse owners in Lebanon</span
+          >
+        </div>
+        <div class="header_center">
+          <a href=""><img src="./img/logo.svg" alt="" /></a>
+          <div class="header_item">
+            <a href="">JOIN US</a>
+            <svg
+              class="header_menu"
+              width="52"
+              height="43"
+              viewBox="0 0 52 43"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <rect
+                x="1.5"
+                y="1.5"
+                width="48.75"
+                height="39.5"
+                rx="4.5"
+                stroke="#4B4B4B"
+                stroke-width="3"
+              />
+              <path
+                d="M12 12H39.75M12 21.25H39.75M12 30.5H39.75"
+                stroke="#4B4B4B"
+                stroke-width="3"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="menu">
+        <div class="menu_max">
+          <div class="menu_swiper">
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="image">
+                    <img src="./img/Menu_picture.png" alt="" />
+                    <div class="swiper-text">
+                      <div class="swiper-text-one">guesthouse</div>
+                      <div class="swiper-text-two">Location</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="image">
+                    <img src="./img/Menu_picture.png" alt="" />
+                    <div class="swiper-text">
+                      <div class="swiper-text-one">News & events</div>
+                      <div class="swiper-text-two">Location</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="image">
+                    <img src="./img/Menu_picture.png" alt="" />
+                    <div class="swiper-text">
+                      <div class="swiper-text-one">Resources</div>
+                      <div class="swiper-text-two">Location</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="image">
+                    <img src="./img/Menu_picture.png" alt="" />
+                    <div class="swiper-text">
+                      <div class="swiper-text-one">Home</div>
+                      <div class="swiper-text-two">Location</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="image">
+                    <img src="./img/Menu_picture.png" alt="" />
+                    <div class="swiper-text">
+                      <div class="swiper-text-one">Syndicate affairs</div>
+                      <div class="swiper-text-two">Location</div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <div class="image">
+                    <img src="./img/Menu_picture.png" alt="" />
+                    <div class="swiper-text">
+                      <div class="swiper-text-one">members</div>
+                      <div class="swiper-text-two">Location</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="button_swiper">
+                <div class="button-prev">
+                  <svg
+                    width="35"
+                    height="21"
+                    viewBox="0 0 35 21"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M11.6667 20.7084C11.6667 19.6263 10.5977 18.0105 9.51563 16.6542C8.12438 14.9042 6.46188 13.3773 4.55583 12.2121C3.12667 11.3386 1.39417 10.5 1.21733e-07 10.5M1.21733e-07 10.5C1.39417 10.5 3.12813 9.6615 4.55583 8.78796C6.46188 7.62129 8.12438 6.09442 9.51563 4.34733C10.5977 2.98962 11.6667 1.37087 11.6667 0.291707M1.21733e-07 10.5L35 10.5"
+                      stroke="white"
+                      stroke-width="2"
+                    />
+                  </svg>
+                </div>
+                <div class="button-next">
+                  <svg
+                    width="35"
+                    height="21"
+                    viewBox="0 0 35 21"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M23.3333 0.291625C23.3333 1.37371 24.4023 2.98954 25.4844 4.34579C26.8756 6.09579 28.5381 7.62267 30.4442 8.78788C31.8733 9.66142 33.6058 10.5 35 10.5M35 10.5C33.6058 10.5 31.8719 11.3385 30.4442 12.212C28.5381 13.3787 26.8756 14.9056 25.4844 16.6527C24.4023 18.0104 23.3333 19.6291 23.3333 20.7083M35 10.5L-1.39989e-06 10.5"
+                      stroke="white"
+                      stroke-width="2"
+                    />
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </div>
+          <script>
+            var swiper = new Swiper(".menu .mySwiper", {
+              navigation: {
+                nextEl: ".button-next",
+                prevEl: ".button-prev",
+              },
+              loop: true,
+            });
+          </script>
+          <div class="menu_box">
+            <div class="flex">
+              <div class="menu_logo">
+                <img src="./img/logo.svg" alt="" />
+              </div>
+              <div class="close">
+                <svg
+                  width="12"
+                  height="12"
+                  viewBox="0 0 12 12"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M11.7017 10.8615C11.7568 10.9167 11.8006 10.9822 11.8304 11.0542C11.8603 11.1263 11.8757 11.2036 11.8757 11.2816C11.8757 11.3596 11.8603 11.4368 11.8304 11.5089C11.8006 11.581 11.7568 11.6465 11.7017 11.7017C11.6465 11.7568 11.581 11.8006 11.5089 11.8304C11.4368 11.8603 11.3596 11.8757 11.2816 11.8757C11.2036 11.8757 11.1263 11.8603 11.0542 11.8304C10.9822 11.8006 10.9167 11.7568 10.8615 11.7017L5.93783 6.77724L1.01416 11.7017C0.902747 11.8131 0.75164 11.8757 0.59408 11.8757C0.43652 11.8757 0.285414 11.8131 0.174002 11.7017C0.0625904 11.5902 3.10588e-09 11.4391 0 11.2816C-3.10588e-09 11.124 0.0625904 10.9729 0.174002 10.8615L5.09842 5.93783L0.174002 1.01416C0.0625904 0.902747 -1.17391e-09 0.75164 0 0.59408C1.17391e-09 0.43652 0.0625904 0.285414 0.174002 0.174002C0.285414 0.0625904 0.43652 1.17391e-09 0.59408 0C0.75164 -1.17391e-09 0.902747 0.0625904 1.01416 0.174002L5.93783 5.09842L10.8615 0.174002C10.9729 0.0625904 11.124 -3.10588e-09 11.2816 0C11.4391 3.10588e-09 11.5902 0.0625904 11.7017 0.174002C11.8131 0.285414 11.8757 0.43652 11.8757 0.59408C11.8757 0.75164 11.8131 0.902747 11.7017 1.01416L6.77724 5.93783L11.7017 10.8615Z"
+                    fill="black"
+                  />
+                </svg>
+              </div>
+            </div>
+            <ul class="menu_nav">
+              <li class="menu_item">
+                <div class="flex_gap">
+                  <a href="">Home</a>
+                </div>
+              </li>
+              <li class="menu_item">
+                <div class="flex_gap">
+                  <a href="">Syndicate affairs</a>
+                </div>
+                <ul class="sub-menu">
+                  <li>
+                    <a href="">About Diyafa</a>
+                  </li>
+                  <li>
+                    <a href="">Board Members</a>
+                  </li>
+                  <li>
+                    <a href="">Contact Us</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu_item">
+                <div class="flex_gap">
+                  <a href="">members</a>
+                </div>
+                <ul class="sub-menu">
+                  <li>
+                    <a href="">Benefits</a>
+                  </li>
+                  <li>
+                    <a href="">Members List</a>
+                  </li>
+                  <li>
+                    <a href="">Join Diyafa</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="menu_item">
+                <div class="flex_gap">
+                  <a href="">Guesthouses</a>
+                </div>
+              </li>
+              <li class="menu_item">
+                <div class="flex_gap">
+                  <a href="">News & events</a>
+                </div>
+              </li>
+              <li class="menu_item">
+                <div class="flex_gap">
+                  <a href="">Resources</a>
+                </div>
+              </li>
+            </ul>
+            <div class="flex_bottom">
+              <a href="">
+                <svg
+                  width="23"
+                  height="23"
+                  viewBox="0 0 23 23"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M6.775 0.25H16.225C19.825 0.25 22.75 3.175 22.75 6.775V16.225C22.75 17.9555 22.0625 19.6152 20.8389 20.8389C19.6152 22.0625 17.9555 22.75 16.225 22.75H6.775C3.175 22.75 0.25 19.825 0.25 16.225V6.775C0.25 5.04446 0.937454 3.3848 2.16113 2.16113C3.3848 0.937454 5.04446 0.25 6.775 0.25ZM6.55 2.5C5.47587 2.5 4.44574 2.9267 3.68622 3.68622C2.9267 4.44574 2.5 5.47587 2.5 6.55V16.45C2.5 18.6887 4.31125 20.5 6.55 20.5H16.45C17.5241 20.5 18.5543 20.0733 19.3138 19.3138C20.0733 18.5543 20.5 17.5241 20.5 16.45V6.55C20.5 4.31125 18.6887 2.5 16.45 2.5H6.55ZM17.4062 4.1875C17.7792 4.1875 18.1369 4.33566 18.4006 4.59938C18.6643 4.8631 18.8125 5.22079 18.8125 5.59375C18.8125 5.96671 18.6643 6.3244 18.4006 6.58812C18.1369 6.85184 17.7792 7 17.4062 7C17.0333 7 16.6756 6.85184 16.4119 6.58812C16.1482 6.3244 16 5.96671 16 5.59375C16 5.22079 16.1482 4.8631 16.4119 4.59938C16.6756 4.33566 17.0333 4.1875 17.4062 4.1875ZM11.5 5.875C12.9918 5.875 14.4226 6.46763 15.4775 7.52252C16.5324 8.57742 17.125 10.0082 17.125 11.5C17.125 12.9918 16.5324 14.4226 15.4775 15.4775C14.4226 16.5324 12.9918 17.125 11.5 17.125C10.0082 17.125 8.57742 16.5324 7.52252 15.4775C6.46763 14.4226 5.875 12.9918 5.875 11.5C5.875 10.0082 6.46763 8.57742 7.52252 7.52252C8.57742 6.46763 10.0082 5.875 11.5 5.875ZM11.5 8.125C10.6049 8.125 9.74645 8.48058 9.11351 9.11351C8.48058 9.74645 8.125 10.6049 8.125 11.5C8.125 12.3951 8.48058 13.2536 9.11351 13.8865C9.74645 14.5194 10.6049 14.875 11.5 14.875C12.3951 14.875 13.2536 14.5194 13.8865 13.8865C14.5194 13.2536 14.875 12.3951 14.875 11.5C14.875 10.6049 14.5194 9.74645 13.8865 9.11351C13.2536 8.48058 12.3951 8.125 11.5 8.125Z"
+                    fill="black"
+                  />
+                </svg>
+              </a>
+              <a href="">
+                <svg
+                  width="23"
+                  height="23"
+                  viewBox="0 0 23 23"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M2.5 11.5C2.50016 9.76801 3.00008 8.07285 3.93976 6.61793C4.87945 5.16301 6.21898 4.01014 7.79763 3.29764C9.37629 2.58514 11.127 2.34329 12.8397 2.60111C14.5524 2.85892 16.1543 3.60545 17.4533 4.75112C18.7522 5.89678 19.693 7.39292 20.1627 9.06C20.6324 10.7271 20.6111 12.4943 20.1014 14.1496C19.5917 15.8049 18.6151 17.2779 17.289 18.392C15.9628 19.506 14.3434 20.2138 12.625 20.4303V13.75H14.875C15.1734 13.75 15.4595 13.6315 15.6705 13.4205C15.8815 13.2095 16 12.9234 16 12.625C16 12.3266 15.8815 12.0405 15.6705 11.8295C15.4595 11.6185 15.1734 11.5 14.875 11.5H12.625V9.25C12.625 8.95163 12.7435 8.66548 12.9545 8.4545C13.1655 8.24353 13.4516 8.125 13.75 8.125H14.3125C14.6109 8.125 14.897 8.00647 15.108 7.7955C15.319 7.58452 15.4375 7.29837 15.4375 7C15.4375 6.70163 15.319 6.41548 15.108 6.2045C14.897 5.99353 14.6109 5.875 14.3125 5.875H13.75C12.8549 5.875 11.9964 6.23058 11.3635 6.86351C10.7306 7.49645 10.375 8.35489 10.375 9.25V11.5H8.125C7.82663 11.5 7.54048 11.6185 7.3295 11.8295C7.11853 12.0405 7 12.3266 7 12.625C7 12.9234 7.11853 13.2095 7.3295 13.4205C7.54048 13.6315 7.82663 13.75 8.125 13.75H10.375V20.4303C8.20004 20.156 6.19992 19.0974 4.75 17.4532C3.30009 15.809 2.50004 13.6922 2.5 11.5ZM11.5 22.75C17.7134 22.75 22.75 17.7134 22.75 11.5C22.75 5.28663 17.7134 0.25 11.5 0.25C5.28663 0.25 0.25 5.28663 0.25 11.5C0.25 17.7134 5.28663 22.75 11.5 22.75Z"
+                    fill="black"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="form">
+        <div class="container">
+          <div class="form_top">
+            <svg
+              width="18"
+              height="16"
+              viewBox="0 0 18 16"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M17.399 7.99976C17.399 8.23846 17.3042 8.46738 17.1354 8.63616C16.9666 8.80494 16.7377 8.89976 16.499 8.89976L3.73343 8.89976L8.72303 13.6518C8.88671 13.8191 8.97877 14.0435 8.9797 14.2776C8.98063 14.5116 8.89034 14.7368 8.72799 14.9054C8.56565 15.074 8.34401 15.1727 8.1101 15.1806C7.87618 15.1885 7.64839 15.105 7.47503 14.9478L0.875032 8.64776C0.787928 8.56381 0.718644 8.46315 0.671322 8.35182C0.623999 8.24048 0.599609 8.12074 0.599609 7.99976C0.599609 7.87879 0.623999 7.75905 0.671322 7.64771C0.718644 7.53637 0.787928 7.43572 0.875032 7.35176L7.47503 1.05176C7.55926 0.965667 7.65992 0.897353 7.77104 0.85087C7.88216 0.804388 8.00148 0.780682 8.12192 0.781158C8.24237 0.781635 8.3615 0.806284 8.47224 0.853644C8.58299 0.901004 8.6831 0.970113 8.76665 1.05687C8.8502 1.14364 8.91548 1.24628 8.95863 1.35874C9.00178 1.47119 9.02192 1.59116 9.01785 1.71154C9.01378 1.83192 8.98559 1.95026 8.93495 2.05955C8.88431 2.16883 8.81225 2.26684 8.72303 2.34776L3.73343 7.09976L16.499 7.09976C16.7377 7.09976 16.9666 7.19459 17.1354 7.36337C17.3042 7.53215 17.399 7.76107 17.399 7.99976Z"
+                fill="#4B4B4B"
+              />
+            </svg>
+            <div class="form_top-text">Form</div>
+          </div>
+          <div class="form_title">Diayafa Form</div>
+          <div class="form_text">
+            <span>Step 6:</span><span>of 9</span><span>Rules</span>
+          </div>
+          <div class="form_box">
+            <form action="">
+              <div class="form_gap30">
+                <div class="form_gap-item">
+                  <div class="form_floating">
+                    <div class="input_group">
+                      <label for="">Check In</label>
+                      <input type="text" placeholder="" />
+                    </div>
+                    <div class="input_group">
+                      <label for="">Check Out</label>
+                      <input type="text" placeholder="" />
+                    </div>
+                  </div>
+                  <div class="form_space">
+                    <div class="form_space-between">
+                      <span>Cancelation Policy</span>
+                      <div class="gap_30">
+                        <div class="form_check">
+                          <input
+                            class=""
+                            type="radio"
+                            name="Policy"
+                            id="Policy"
+                            checked
+                          />
+                          <label class="" for="Policy">Yes</label>
+                        </div>
+                        <div class="form_check">
+                          <input
+                            class=""
+                            type="radio"
+                            name="Policy"
+                            id="Policy"
+                          />
+                          <label class="" for="Policy">No</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form_space-between">
+                      <span>guest feedback records</span>
+                      <div class="gap_30">
+                        <div class="form_check">
+                          <input
+                            class=""
+                            type="radio"
+                            name="records"
+                            id="records"
+                            checked
+                          />
+                          <label class="" for="records">Yes</label>
+                        </div>
+                        <div class="form_check">
+                          <input
+                            class=""
+                            type="radio"
+                            name="records"
+                            id="records"
+                          />
+                          <label class="" for="records">No</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form_space-between">
+                      <span>Smoking Policy</span>
+                      <div class="gap_30">
+                        <div class="form_check">
+                          <input
+                            class=""
+                            type="radio"
+                            name="Smoking"
+                            id="Smoking"
+                            checked
+                          />
+                          <label class="" for="Urban">Yes</label>
+                        </div>
+                        <div class="form_check">
+                          <input
+                            class=""
+                            type="radio"
+                            name="Smoking"
+                            id="Smoking"
+                          />
+                          <label class="" for="Smoking">No</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form_space-between">
+                      <span>Alcohol Allowed?</span>
+                      <div class="gap_30">
+                        <div class="form_check">
+                          <input
+                            class=""
+                            type="radio"
+                            name="Alcohol"
+                            id="Alcohol"
+                            checked
+                          />
+                          <label class="" for="Alcohol">Yes</label>
+                        </div>
+                        <div class="form_check">
+                          <input
+                            class=""
+                            type="radio"
+                            name="Alcohol"
+                            id="Alcohol"
+                          />
+                          <label class="" for="Alcohol">No</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form_space-between">
+                      <span>Any Children restriction?</span>
+                      <div class="gap_30">
+                        <div class="form_check">
+                          <input
+                            class=""
+                            type="radio"
+                            name="Any"
+                            id="Any"
+                            checked
+                          />
+                          <label class="" for="Any">Yes</label>
+                        </div>
+                        <div class="form_check">
+                          <input class="" type="radio" name="Any" id="Any" />
+                          <label class="" for="Any">No</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form_space-between">
+                      <span>Pets allowed?</span>
+                      <div class="gap_30">
+                        <div class="form_check">
+                          <input
+                            class=""
+                            type="radio"
+                            name="Pets"
+                            id="Pets"
+                            checked
+                          />
+                          <label class="" for="Pets">Yes</label>
+                        </div>
+                        <div class="form_check">
+                          <input class="" type="radio" name="Pets" id="Pets" />
+                          <label class="" for="Pets">No</label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="gap_16">
+                  <div class="form_title-big">Green and Eco-friendly practices</div>
+                  <div class="form_check-radio">
+                      <div class="form_center-flex">
+                        <div class="form_check">
+                          <input
+                            class=""
+                            type="radio"
+                            name="Energy"
+                            id="Energy"
+                            checked
+                          />
+                          <label class="" for="Energy">
+                            Energy saving measures
+                          </label>
+                        </div>
+                        <div class="form_check">
+                          <input
+                            class=""
+                            type="radio"
+                            name="Energy"
+                            id="Energy"
+                          />
+                          <label class="" for="Energy"> Waste Management </label>
+                        </div>
+                        <div class="form_check">
+                          <input
+                            class=""
+                            type="radio"
+                            name="Energy"
+                            id="Energy"
+                          />
+                          <label class="" for="Energy">
+                            Water Conservation effort
+                          </label>
+                        </div>
+                        <div class="form_check">
+                          <input
+                            class=""
+                            type="radio"
+                            name="Energy"
+                            id="Energy"
+                          />
+                          <label class="" for="Energy"> Other </label>
+                        </div>
+                      </div>
+                      <div class="form_center-flex">
+                        <div class="form_check">
+                          <input
+                            class=""
+                            type="radio"
+                            name="Energy"
+                            id="Energy"
+                          />
+                          <label class="" for="Energy"> Plastic Recycling </label>
+                        </div>
+                        <div class="form_check">
+                          <input
+                            class=""
+                            type="radio"
+                            name="Energy"
+                            id="Energy"
+                          />
+                          <label class="" for="Energy">
+                            Renewable Energy source
+                          </label>
+                        </div>
+                        <div class="form_check">
+                          <input
+                            class=""
+                            type="radio"
+                            name="Energy"
+                            id="Energy"
+                          />
+                          <label class="" for="Energy"> Coastal </label>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="gap_16">
+                  <div class="form_title-big">Green and Eco-friendly operational practices</div>
+                  <div class="form_check-radio">
+                      <div class="form_center-flex">
+                        <div class="form_check">
+                          <input
+                            class=""
+                            type="radio"
+                            name="Green"
+                            id="Green"
+                            checked
+                          />
+                          <label class="" for="Energy">
+                            Green to table dishes
+                          </label>
+                        </div>
+                        <div class="form_check">
+                          <input class="" type="radio" name="Green" id="Green" />
+                          <label class="" for="Energy">
+                            Planting Vegetables and Fruits
+                          </label>
+                        </div>
+                        <div class="form_check">
+                          <input class="" type="radio" name="Green" id="Green" />
+                          <label class="" for="Energy"> Other </label>
+                        </div>
+                      </div>
+                      <div class="form_center-flex">
+                        <div class="form_check">
+                          <input class="" type="radio" name="Green" id="Green" />
+                          <label class="" for="Energy">
+                            Artisanal Produce Production
+                          </label>
+                        </div>
+                        <div class="form_check">
+                          <input class="" type="radio" name="Green" id="Green" />
+                          <label class="" for="Energy"> Landscaping </label>
+                        </div>
+                      </div>
+                  </div>
+                </div>
+                <div class="gap_16">
+                  <div class="form_title-big">Safety and Security</div>
+                  <div class="form_space">
+                    <div class="form_space-between">
+                      <span>Disabled Accessibility</span>
+                      <div class="gap_30">
+                        <div class="form_check">
+                          <input
+                            class=""
+                            type="radio"
+                            name="Are"
+                            id="Are"
+                            checked
+                          />
+                          <label class="" for="Are">Yes</label>
+                        </div>
+                        <div class="form_check">
+                          <input class="" type="radio" name="Are" id="Are" />
+                          <label class="" for="Are">No</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form_space-between">
+                      <span>Are there fire extinguishers?</span>
+                      <div class="gap_30">
+                        <div class="form_check">
+                          <input
+                            class=""
+                            type="radio"
+                            name="there"
+                            id="there"
+                            checked
+                          />
+                          <label class="" for="there">Yes</label>
+                        </div>
+                        <div class="form_check">
+                          <input
+                            class=""
+                            type="radio"
+                            name="there"
+                            id="there"
+                          />
+                          <label class="" for="there">No</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form_space-between">
+                      <span>Are there smoke detectors?</span>
+                      <div class="gap_30">
+                        <div class="form_check">
+                          <input
+                            class=""
+                            type="radio"
+                            name="detectors"
+                            id="detectors"
+                            checked
+                          />
+                          <label class="" for="Urban">Yes</label>
+                        </div>
+                        <div class="form_check">
+                          <input
+                            class=""
+                            type="radio"
+                            name="detectors"
+                            id="detectors"
+                          />
+                          <label class="" for="detectors">No</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form_space-between">
+                      <span>Is there a first aid kit available?</span>
+                      <div class="gap_30">
+                        <div class="form_check">
+                          <input
+                            class=""
+                            type="radio"
+                            name="available"
+                            id="available"
+                            checked
+                          />
+                          <label class="" for="Alcohol">Yes</label>
+                        </div>
+                        <div class="form_check">
+                          <input
+                            class=""
+                            type="radio"
+                            name="available"
+                            id="available"
+                          />
+                          <label class="" for="available">No</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form_space-between">
+                      <span
+                        >Have the host and /or staff received first aid
+                        training?</span
+                      >
+                      <div class="gap_30">
+                        <div class="form_check">
+                          <input
+                            class=""
+                            type="radio"
+                            name="training"
+                            id="training"
+                            checked
+                          />
+                          <label class="" for="training">Yes</label>
+                        </div>
+                        <div class="form_check">
+                          <input
+                            class=""
+                            type="radio"
+                            name="training"
+                            id="training"
+                          />
+                          <label class="" for="training">No</label>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="form_space-between">
+                      <span>Is the site guarded?</span>
+                      <div class="gap_30">
+                        <div class="form_check">
+                          <input
+                            class=""
+                            type="radio"
+                            name="guarded"
+                            id="guarded"
+                            checked
+                          />
+                          <label class="" for="guarded">Yes</label>
+                        </div>
+                        <div class="form_check">
+                          <input
+                            class=""
+                            type="radio"
+                            name="guarded"
+                            id="guarded"
+                          />
+                          <label class="" for="guarded">No</label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="form_floating-max">
+                  <div class="form_floating">
+                    <div class="input_group">
+                      <label for="">Closest Pharmacy Name</label>
+                      <input type="text" placeholder="" />
+                    </div>
+                    <div class="input_group">
+                      <label for="">Closest Pharmacy Number</label>
+                      <input type="text" placeholder="" />
+                    </div>
+                  </div>
+                  <div class="form_floating">
+                    <div class="input_group">
+                      <label for="">Closest Dispensary Name</label>
+                      <input type="text" placeholder="" />
+                    </div>
+                    <div class="input_group">
+                      <label for="">Closest Dispensary Number</label>
+                      <input type="text" placeholder="" />
+                    </div>
+                  </div>
+                  <div class="form_floating">
+                    <div class="input_group">
+                      <label for="">Closest Hospital Name</label>
+                      <input type="text" placeholder="" />
+                    </div>
+                    <div class="input_group">
+                      <label for="">Closest Hospital Number</label>
+                      <input type="text" placeholder="" />
+                    </div>
+                  </div>
+                  <div class="form_floating">
+                    <div class="input_group">
+                      <label for="">Ambulance Phone number</label>
+                      <input type="text" placeholder="" />
+                    </div>
+                    <div class="input_group">
+                      <label for="">Fire Fighter Phone number</label>
+                      <input type="text" placeholder="" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="mt_40">
+                <button>Next</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer mt_60">
+        <div class="container">
+          <div class="footer_top">
+            <div class="footer_img">
+              <a href=""><img src="./img/logo_footer.svg" alt="" /></a>
+            </div>
+            <div class="footer_news">
+              <div class="footer_item">
+                <div class="footer_heading">Home</div>
+                <div class="footer_heading">Guesthouses</div>
+                <div class="footer_heading">News & events</div>
+                <div class="footer_heading">Resources</div>
+              </div>
+              <div class="footer_box">
+                <div class="footer_heading">Syndicate affairs</div>
+                <ul>
+                  <li>
+                    <a href="">About Diyafa</a>
+                  </li>
+                  <li>
+                    <a href="">Board Members</a>
+                  </li>
+                  <li>
+                    <a href="">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer_box">
+                <div class="footer_heading">members</div>
+                <ul>
+                  <li>
+                    <a href="">Benefits</a>
+                  </li>
+                  <li>
+                    <a href="">Members List</a>
+                  </li>
+                  <li>
+                    <a href="">Join Diyafa</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="footer_box">
+                <div class="footer_heading">Contact us</div>
+                <div class="footer_flex">
+                  <svg
+                    width="15"
+                    height="13"
+                    viewBox="0 0 15 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M13.166 3.66683L7.49935 7.2085L1.83268 3.66683V2.25016L7.49935 5.79183L13.166 2.25016M13.166 0.833496H1.83268C1.04643 0.833496 0.416016 1.46391 0.416016 2.25016V10.7502C0.416016 11.1259 0.565271 11.4862 0.830948 11.7519C1.09662 12.0176 1.45696 12.1668 1.83268 12.1668H13.166C13.5417 12.1668 13.9021 12.0176 14.1678 11.7519C14.4334 11.4862 14.5827 11.1259 14.5827 10.7502V2.25016C14.5827 1.87444 14.4334 1.5141 14.1678 1.24843C13.9021 0.982752 13.5417 0.833496 13.166 0.833496Z"
+                      fill="#4B4B4B"
+                    />
+                  </svg>
+                  <span>hello@email.com</span>
+                </div>
+                <div class="footer_flex">
+                  <svg
+                    width="13"
+                    height="13"
+                    viewBox="0 0 13 13"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M11.6221 8.80941L9.82297 8.60399C9.61141 8.57915 9.39698 8.60257 9.19578 8.6725C8.99458 8.74243 8.81184 8.85705 8.6613 9.00774L7.35797 10.3111C5.34714 9.2884 3.71273 7.65398 2.69005 5.64316L4.00047 4.33274C4.30505 4.02816 4.4538 3.60316 4.40422 3.17108L4.1988 1.38608C4.15864 1.04053 3.99281 0.721826 3.73288 0.490634C3.47296 0.259442 3.13708 0.131912 2.78922 0.132325H1.5638C0.763384 0.132325 0.09755 0.798159 0.147133 1.59858C0.52255 7.64774 5.36047 12.4786 11.4025 12.854C12.203 12.9036 12.8688 12.2377 12.8688 11.4373V10.2119C12.8759 9.49649 12.3375 8.89441 11.6221 8.80941Z"
+                      fill="#4B4B4B"
+                    />
+                  </svg>
+                  <span>+123-234-1234</span>
+                </div>
+                <div class="footer_flex">
+                  <svg
+                    width="11"
+                    height="15"
+                    viewBox="0 0 11 15"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M5.49935 7.14567C5.0297 7.14567 4.57928 6.9591 4.24718 6.62701C3.91509 6.29491 3.72852 5.84449 3.72852 5.37484C3.72852 4.90518 3.91509 4.45476 4.24718 4.12267C4.57928 3.79057 5.0297 3.604 5.49935 3.604C5.969 3.604 6.41942 3.79057 6.75152 4.12267C7.08361 4.45476 7.27018 4.90518 7.27018 5.37484C7.27018 5.60739 7.22438 5.83766 7.13539 6.05251C7.04639 6.26735 6.91595 6.46257 6.75152 6.62701C6.58708 6.79144 6.39187 6.92188 6.17702 7.01087C5.96217 7.09987 5.7319 7.14567 5.49935 7.14567ZM5.49935 0.416504C4.18432 0.416504 2.92315 0.938898 1.99328 1.86877C1.06341 2.79863 0.541016 4.05981 0.541016 5.37484C0.541016 9.09359 5.49935 14.5832 5.49935 14.5832C5.49935 14.5832 10.4577 9.09359 10.4577 5.37484C10.4577 4.05981 9.93529 2.79863 9.00542 1.86877C8.07555 0.938898 6.81438 0.416504 5.49935 0.416504Z"
+                      fill="#4B4B4B"
+                    />
+                  </svg>
+                  <span>Location</span>
+                </div>
+              </div>
+              <div class="footer_box">
+                <div class="footer_heading">Social</div>
+                <div class="footer_gap">
+                  <a class="footer_border" href="">
+                    <svg
+                      width="10"
+                      height="16"
+                      viewBox="0 0 10 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M2.66667 5.33333H0V8H2.66667V16H6.66667V8H9.09333L9.33333 5.33333H6.66667V4.22267C6.66667 3.58533 6.79467 3.33333 7.41067 3.33333H9.33333V0H6.128C3.73067 0 2.66667 1.056 2.66667 3.07733V5.33333Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </a>
+                  <a class="footer_border" href="">
+                    <svg
+                      width="16"
+                      height="13"
+                      viewBox="0 0 16 13"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M16 1.54C15.412 1.80133 14.7787 1.97733 14.1147 2.05733C14.7933 1.65067 15.312 1.008 15.5587 0.241333C14.924 0.617333 14.2213 0.890667 13.4733 1.03733C12.876 0.398667 12.0213 0 11.0787 0C8.95867 0 7.40133 1.97733 7.88 4.03067C5.15333 3.89333 2.73333 2.58667 1.11467 0.601333C0.254667 2.076 0.669333 4.00667 2.13067 4.984C1.59333 4.96667 1.088 4.81867 0.645333 4.57333C0.609333 6.09333 1.7 7.516 3.27867 7.83333C2.81733 7.95867 2.31067 7.988 1.796 7.88933C2.21333 9.19333 3.428 10.1413 4.86267 10.168C3.48 11.2507 1.74267 11.7347 0 11.5293C1.45333 12.4613 3.17733 13.004 5.03067 13.004C11.1267 13.004 14.5693 7.856 14.3613 3.23867C15.004 2.77733 15.56 2.19867 16 1.54Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </a>
+                  <a class="footer_border" href="">
+                    <svg
+                      width="16"
+                      height="16"
+                      viewBox="0 0 16 16"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M8 0C5.82667 0 5.556 0.00933333 4.70133 0.0493333C1.79467 0.182667 0.181333 1.79467 0.048 4.70133C0.00933333 5.556 0 5.828 0 8C0 10.1733 0.00933333 10.4453 0.048 11.2987C0.181333 14.204 1.79467 15.8187 4.70133 15.952C5.556 15.9907 5.82667 16 8 16C10.1733 16 10.4453 15.9907 11.3 15.952C14.2013 15.8187 15.8213 14.2067 15.952 11.2987C15.9907 10.4453 16 10.1733 16 8C16 5.828 15.9907 5.556 15.952 4.70133C15.8213 1.79867 14.2067 0.181333 11.3 0.0493333C10.4453 0.00933333 10.1733 0 8 0ZM8 1.44267C10.136 1.44267 10.3893 1.45067 11.2333 1.48933C13.4027 1.588 14.4133 2.616 14.5133 4.768C14.5507 5.612 14.5587 5.864 14.5587 8C14.5587 10.136 14.5507 10.3893 14.5133 11.232C14.4133 13.3827 13.404 14.4133 11.2333 14.512C10.3893 14.5493 10.1373 14.5587 8 14.5587C5.864 14.5587 5.61067 14.5507 4.768 14.512C2.59467 14.412 1.588 13.38 1.488 11.232C1.45067 10.3893 1.44133 10.136 1.44133 8C1.44133 5.864 1.45067 5.61067 1.488 4.768C1.58667 2.61467 2.59733 1.58667 4.768 1.488C5.61067 1.44933 5.864 1.44267 8 1.44267ZM3.89258 8.00009C3.89258 5.73076 5.73258 3.89209 8.00058 3.89209C10.2686 3.89209 12.1086 5.73209 12.1086 8.00009C12.1086 10.2694 10.2686 12.1081 8.00058 12.1081C5.73258 12.1081 3.89258 10.2694 3.89258 8.00009ZM8.00065 10.6668C6.52732 10.6668 5.33398 9.4735 5.33398 8.00016C5.33398 6.52816 6.52732 5.3335 8.00065 5.3335C9.47265 5.3335 10.6687 6.52683 10.6687 8.00016C10.6687 9.4735 9.47265 10.6668 8.00065 10.6668ZM11.3086 3.73051C11.3086 3.19984 11.7393 2.77051 12.2686 2.77051C12.8006 2.77051 13.2299 3.19984 13.2299 3.73051C13.2299 4.26117 12.7993 4.69051 12.2686 4.69051C11.7379 4.69051 11.3086 4.25984 11.3086 3.73051Z"
+                        fill="white"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="footer_gao">
+            <a class="footer_border" href="">
+              <svg
+                width="10"
+                height="16"
+                viewBox="0 0 10 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M2.66667 5.33333H0V8H2.66667V16H6.66667V8H9.09333L9.33333 5.33333H6.66667V4.22267C6.66667 3.58533 6.79467 3.33333 7.41067 3.33333H9.33333V0H6.128C3.73067 0 2.66667 1.056 2.66667 3.07733V5.33333Z"
+                  fill="white"
+                />
+              </svg>
+            </a>
+            <a class="footer_border" href="">
+              <svg
+                width="16"
+                height="13"
+                viewBox="0 0 16 13"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M16 1.54C15.412 1.80133 14.7787 1.97733 14.1147 2.05733C14.7933 1.65067 15.312 1.008 15.5587 0.241333C14.924 0.617333 14.2213 0.890667 13.4733 1.03733C12.876 0.398667 12.0213 0 11.0787 0C8.95867 0 7.40133 1.97733 7.88 4.03067C5.15333 3.89333 2.73333 2.58667 1.11467 0.601333C0.254667 2.076 0.669333 4.00667 2.13067 4.984C1.59333 4.96667 1.088 4.81867 0.645333 4.57333C0.609333 6.09333 1.7 7.516 3.27867 7.83333C2.81733 7.95867 2.31067 7.988 1.796 7.88933C2.21333 9.19333 3.428 10.1413 4.86267 10.168C3.48 11.2507 1.74267 11.7347 0 11.5293C1.45333 12.4613 3.17733 13.004 5.03067 13.004C11.1267 13.004 14.5693 7.856 14.3613 3.23867C15.004 2.77733 15.56 2.19867 16 1.54Z"
+                  fill="white"
+                />
+              </svg>
+            </a>
+            <a class="footer_border" href="">
+              <svg
+                width="16"
+                height="16"
+                viewBox="0 0 16 16"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M8 0C5.82667 0 5.556 0.00933333 4.70133 0.0493333C1.79467 0.182667 0.181333 1.79467 0.048 4.70133C0.00933333 5.556 0 5.828 0 8C0 10.1733 0.00933333 10.4453 0.048 11.2987C0.181333 14.204 1.79467 15.8187 4.70133 15.952C5.556 15.9907 5.82667 16 8 16C10.1733 16 10.4453 15.9907 11.3 15.952C14.2013 15.8187 15.8213 14.2067 15.952 11.2987C15.9907 10.4453 16 10.1733 16 8C16 5.828 15.9907 5.556 15.952 4.70133C15.8213 1.79867 14.2067 0.181333 11.3 0.0493333C10.4453 0.00933333 10.1733 0 8 0ZM8 1.44267C10.136 1.44267 10.3893 1.45067 11.2333 1.48933C13.4027 1.588 14.4133 2.616 14.5133 4.768C14.5507 5.612 14.5587 5.864 14.5587 8C14.5587 10.136 14.5507 10.3893 14.5133 11.232C14.4133 13.3827 13.404 14.4133 11.2333 14.512C10.3893 14.5493 10.1373 14.5587 8 14.5587C5.864 14.5587 5.61067 14.5507 4.768 14.512C2.59467 14.412 1.588 13.38 1.488 11.232C1.45067 10.3893 1.44133 10.136 1.44133 8C1.44133 5.864 1.45067 5.61067 1.488 4.768C1.58667 2.61467 2.59733 1.58667 4.768 1.488C5.61067 1.44933 5.864 1.44267 8 1.44267ZM3.89258 8.00009C3.89258 5.73076 5.73258 3.89209 8.00058 3.89209C10.2686 3.89209 12.1086 5.73209 12.1086 8.00009C12.1086 10.2694 10.2686 12.1081 8.00058 12.1081C5.73258 12.1081 3.89258 10.2694 3.89258 8.00009ZM8.00065 10.6668C6.52732 10.6668 5.33398 9.4735 5.33398 8.00016C5.33398 6.52816 6.52732 5.3335 8.00065 5.3335C9.47265 5.3335 10.6687 6.52683 10.6687 8.00016C10.6687 9.4735 9.47265 10.6668 8.00065 10.6668ZM11.3086 3.73051C11.3086 3.19984 11.7393 2.77051 12.2686 2.77051C12.8006 2.77051 13.2299 3.19984 13.2299 3.73051C13.2299 4.26117 12.7993 4.69051 12.2686 4.69051C11.7379 4.69051 11.3086 4.25984 11.3086 3.73051Z"
+                  fill="white"
+                />
+              </svg>
+            </a>
+          </div>
+          <div class="footer_rectangle"></div>
+          <div class="footer_bottom">
+            <div class="text-one">Copyright © 2024. All Rights Reserved.</div>
+            <div class="gird-item">
+              <div class="grid-small">
+                <div class="text-one">Terms of Use</div>
+                <div class="text-one">Privacy Policy</div>
+              </div>
+              <div class="text-two">
+                نقابة أصحاب ومستثمري بيوت الضيافة في لبنان ترخيص رقم ١٢١٢١٢
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
