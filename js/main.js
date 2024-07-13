@@ -16,7 +16,7 @@ function header() {
    // Scroll article
    jQuery(window).scroll(function(event) {
        var scroll = jQuery(window).scrollTop();
-       if (scroll > 300) {
+       if (scroll > 200) {
            jQuery('.header_center').addClass('white');
        } else {
            jQuery('.header_center').removeClass('white');
